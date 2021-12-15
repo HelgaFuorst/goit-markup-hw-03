@@ -1,0 +1,232 @@
+/* Палитра */
+/* Цвет основного текста #212121*/
+/* Вторичный цвет текста #757575*/
+/* Троичный цвет текста rgba(255, 255, 255, 0.6); */
+/* Цвет действия #2196F3*/
+/* Белый цвет текста #FFFFFF*/
+/* Основной фон #ffffff*/
+/* Вторичный фон #E5E5E5; */
+/* Дополнительный фон #2F303A; */
+:root {
+  --main-text-color: #212121;
+  --brand-color: #2196f3;
+  --second-text-color: #757575;
+  --white-color: #ffffff;
+}
+body {
+  color: var(--main-text-color);
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: var(--white-color);
+}
+
+/* img делаем блочным */
+.img-block {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*  */
+.no-lines {
+  /* Забираем декоративные линии */
+  text-decoration: none;
+  /* Забираем декоративные линии */
+  display: inline-block;
+}
+
+/* Забираем вид маркера и отступы*/
+.no-dote {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*Шапка*/
+/*Navigation*/
+/*Logotyp*/
+.web,
+.studio {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.web {
+  color: var(--brand-color);
+}
+.studio {
+  color: #000000;
+}
+.nav-text {
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.active-page {
+  color: var(--brand-color);
+}
+
+.nav-text:hover,
+.nav-text:focus {
+  color: var(--brand-color);
+}
+
+.contacts {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--brand-color);
+}
+.mail-contact
+/*Студия*/
+/*Баннер*/
+.banner {
+  background-color: #2f303a;
+}
+.banner-color {
+  background-color: #2f303a;
+}
+.main-studio-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.banner-button {
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+
+  background: var(--brand-color);
+}
+.text-shadow {
+  color: var(--white-color);
+}
+.text-shadow:hover,
+.text-shadow:focus {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Основные принципы*/
+
+.second-header {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.principles-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+/*Чем мы занимаемся*/
+/* Наша команда */
+.about-workers {
+  background-color: #f5f4fa;
+}
+.section-header-text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+/*Подвал*/
+.basment {
+  background: #2f303a;
+}
+
+.address-activity {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.address-activity:hover,
+.address-activity:focus {
+  color: var(--brand-color);
+}
+.contacts-basment {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-basment:hover,
+.contacts-basment:focus {
+  color: var(--brand-color);
+}
+.studio-basment {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+/*Портфолио*/
+.button-cursor {
+  background-color: #f5f4fa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.blue-button {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+.button-cursor:hover,
+.button-cursor:focus {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+.project-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.signature-gray {
+  color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 2;
+}
