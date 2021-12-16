@@ -31,6 +31,9 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--white-color);
 }
+.container {
+  width: 1200px;
+}
 
 /* img делаем блочным */
 .img-block {
@@ -209,6 +212,10 @@ body {
   color: var(--white-color);
 }
 /*Портфолио*/
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .button-cursor {
   font-family: Raleway;
   background-color: #f5f4fa;
