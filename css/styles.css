@@ -101,10 +101,15 @@ body {
 .banner {
   background-color: #2f303a;
 }
+.banner-section {
+  text-align: center;
+}
 .banner-color {
   background-color: #2f303a;
 }
 .main-studio-header {
+  margin-top: 0;
+  margin-bottom: 29px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -114,14 +119,18 @@ body {
   color: var(--white-color);
 }
 .banner-button {
+  padding: 10px 32px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
   letter-spacing: 0.06em;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
-
   background: var(--brand-color);
 }
+
 .text-shadow {
   color: var(--white-color);
 }
