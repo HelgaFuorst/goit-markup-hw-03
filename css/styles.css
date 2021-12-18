@@ -8,14 +8,6 @@
 /* Вторичный фон #E5E5E5; */
 /* Дополнительный фон #2F303A; */
 
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 :root {
   --main-text-color: #212121;
   --brand-color: #2196f3;
