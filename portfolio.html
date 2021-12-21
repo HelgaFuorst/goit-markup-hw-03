@@ -21,9 +21,9 @@
     />
   </head>
   <body>
-    <div class="container">
-      <!--Шапка-->
-      <header class="head">
+    <!--Шапка-->
+    <header class="head">
+      <div class="container">
         <div class="head-row">
           <!--Навигация шапки-->
           <nav class="nav-row site-navigation">
@@ -61,10 +61,12 @@
             </li>
           </ul>
         </div>
-      </header>
-      <!--Основной контент-->
-      <main>
-        <section class="section">
+      </div>
+    </header>
+    <!--Основной контент-->
+    <main>
+      <section class="section">
+        <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
           <ul class="no-dote button-row">
             <li class="item">
@@ -181,15 +183,19 @@
               <p class="signature-gray">Приложение</p>
             </li>
           </ul>
-        </section>
-      </main>
-      <!--Подвал-->
-      <footer class="basment">
+        </div>
+      </section>
+    </main>
+    <!--Подвал-->
+    <footer class="basment">
+      <div class="container">
         <!-- Белый логотип -->
-        <a href="./index.html"
-          ><span class="web no-lines">Web</span
-          ><span class="studio-basment no-lines">Studio</span></a
-        >
+        <div class="basment-logo">
+          <a href="./index.html"
+            ><span class="web no-lines">Web</span
+            ><span class="studio-basment no-lines">Studio</span></a
+          >
+        </div>
         <!-- Нижние контакты -->
         <address>
           <p>
@@ -212,7 +218,7 @@
             >
           </p>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

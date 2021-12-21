@@ -7,13 +7,14 @@
 /* Основной фон #ffffff*/
 /* Вторичный фон #E5E5E5; */
 /* Дополнительный фон #2F303A; */
-
+/* Цветовые переменные */
 :root {
   --main-text-color: #212121;
   --brand-color: #2196f3;
   --second-text-color: #757575;
   --white-color: #ffffff;
 }
+/* Общие характеристики по тегам */
 body {
   color: var(--main-text-color);
   font-family: "roboto", sans-serif;
@@ -25,10 +26,32 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
+button {
+  cursor: pointer;
+}
+/* Общие сбросы-характеристики по классам*/
+/* img делаем блочным */
+.img-block {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Отсуствие линий и прочих декораций браузера */
+.no-lines {
+  text-decoration: none;
+  display: inline-block;
+}
+.no-dote {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* Контейнеры-секции */
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -38,35 +61,17 @@ h3 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* img делаем блочным */
-.img-block {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/*  */
-.no-lines {
-  /* Забираем декоративные линии */
-  text-decoration: none;
-  /* Забираем декоративные линии */
-  display: inline-block;
-}
-
-/* Забираем вид маркера и отступы*/
-.no-dote {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-button {
-  cursor: pointer;
+.additional-sec {
+  padding-bottom: 94px;
 }
 
 /*Шапка*/
+.head {
+  border-bottom: 1px solid #ececec;
+}
 .head-row {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -138,15 +143,17 @@ button {
 /*Студия*/
 /*Баннер*/
 .banner {
-  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .banner-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
-}
-.banner-color {
   background-color: #2f303a;
   width: auto;
 }
+
 .main-studio-header {
   margin-top: 0;
   margin-bottom: 29px;
@@ -188,6 +195,7 @@ button {
   margin-right: 30px;
 }
 .second-header {
+  margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -228,12 +236,17 @@ button {
   margin-right: 30px;
 }
 .our-team .item {
+  padding-bottom: 30px;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.worker-img {
+  margin-bottom: 30px;
+}
 .worker-name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -266,13 +279,16 @@ button {
 .address-activity:focus {
   color: var(--brand-color);
 }
+
 .contacts-basment {
-  display: inline-block;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.address-item {
+  margin-bottom: 9px;
 }
 .contacts-basment:hover,
 .contacts-basment:focus {
