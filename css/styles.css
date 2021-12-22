@@ -77,13 +77,13 @@ button {
 
 /*Шапка*/
 .head {
+  padding-top: 24px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 .head-row {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 /*Navigation*/
 .nav-row {
@@ -216,6 +216,7 @@ button {
 }
 /* Описание принципов */
 .principles-description {
+  width: 270px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -334,6 +335,7 @@ button {
 }
 
 .button-cursor {
+  padding: 6px 22px;
   font-family: Raleway;
   background-color: #f5f4fa;
   font-style: normal;
@@ -369,12 +371,12 @@ button {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eeeeee;
 }
-
+.gallery-info {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
 .project-name {
-  margin-top: 20px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
